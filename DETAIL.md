@@ -29,7 +29,7 @@
     - Datadogの導入、SLOの策定、定めたSLOを守るためのレイテンシチューニングなどを担当。
 
 - 業務内容
-    - AWS/ElasticBeansTalk、GCP/GKEで動かしているシステムにDatadogを導入し、ログ、プロセス、メトリクス、APMを可視化。
+    - AWS/Elastic Beanstalk、GCP/GKEで動かしているシステムにDatadogを導入し、ログ、プロセス、メトリクス、APMを可視化。
         - TerraformとAnsibleでIaC化
     - SLOを策定
         - チームとして守るべきSLOを策定し、Datadogによって可視化。
@@ -37,7 +37,7 @@
         - プッシュ通知を同期的に行っていたところを、AmazonSQS + Lambdaの構成で非同期にし、レイテンシを5分の1に改善
 
 - 使用技術
-    - Java/J2EE, Golang, gRPC, GKE, ElasticBeansTalk, RDS(MySQL), CircleCI, Ansible, Terraform, Datadog 
+    - Java/J2EE, Golang, gRPC, GKE, Elastic Beanstalk, RDS(MySQL), CircleCI, Ansible, Terraform, Datadog 
 
 ### 2018/12 ~ 2019/07
 - プロジェクト概要
@@ -98,7 +98,7 @@
 - 検索基盤にElasticsearch導入を提案、推進した。
     - 設計、インデクシングバッチ、検索処理の実装、チューニング、テスト、リリースに至るまで一貫して対応。
     - 結果、検索レスポンスを28倍改善させた。
-    - https://speakerdeck.com/taisho6339/jian-suo-ji-pan- woan-quan-nielasticsearchnizhi-kihuan- erutameniyatutakoto
+    - https://speakerdeck.com/taisho6339/jian-suo-ji-pan-woan-quan-nielasticsearchnizhi-kihuan-erutameniyatutakoto
     - また、ダークローンチによる本番環境検証、Feature Toggle導入による可用性担保を実施することで障害0でのリリースを実現。ここで得られた知見を社内で横展開した。
 
 - コスト削減のためにプライベートクラウドサーバの移行を実施。
